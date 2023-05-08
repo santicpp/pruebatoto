@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Vaping - Tu lugar favorito de Vapeo </title>
+    <link rel="shortcut icon" href="../images/Logos/logoe-Vaping.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    
+     <nav>
+    
+        <a href="../index.html"> 
+            <img src="../images/Logos/logoe-Vaping.png" class="logo" alt="logo E-Vaping"></a>
+            <ul>
+       
+    
+                <li>
+                    <a href="Kits.html">Kits</a></li>
+                        <li>
+                            <a href="Contacto.html">Contacto</a></li>
+                                <li>
+                                    <a href="Atomizadores.html">Atomizadores</a></li>
+                                        <li>
+                                            <a href="#">Liquidos</a>
+                                            </li>
+                                </ul>   
+    </nav>
+
+    <!-- fin de mi navegacion -->
+    <header class="fondo-header"> 
+        <img src="../images/hombre-vapeando.jpg" class="foto-principal" alt="imagen de inicio">
+            </header>
+   <main class="text-center">
+            <section>
+                   <h1>Liquidos Frutales</h1>
+                    <div class="contenedor-producto">
+                        <img src="../images/Liquidos/MRFREEZESALTLUSHFROST2-295x295.jpg" class="foto-productos" alt="mrsaltlushfrost">
+                        <p>Mr Freeze Salt Lush Frost</p>
+                        <p>$4000</p>
+                        <button>+ Agregar al carrito</button>
+                    </div>
+                    <div class="contenedor-producto">
+                        <img src="../images/Liquidos/MRFREEZESALTLYCHEEFROST-245x280.jpg" class="foto-productos" alt="mrsaltlycheefrost">
+                        <p>Mr Freeze Leechy Frost</p>
+                        <p>$3200</p>
+                        <button>+ Agregar al carrito</button>
+
+                    </div>
+                    <div class="contenedor-producto">
+                        <img src="../images/Liquidos/MRFREEZESALTMOONROCKS-245x280.jpg" class="foto-productos" alt="mrfreezesaltmoonrocks">
+                        <p>Mr Freeze Moon Rocks</p>
+                        <p>$4000</p>
+                        <button>+ Agregar al carrito</button>
+                    </div>
+                    <div class="contenedor-producto">
+                        <img src="../images/Liquidos/MRFREEZESALTSTRAWBERRYFROST-245x280.jpg" class="foto-productos" alt="mrfreezestrawberry">
+                        <p>Mr Freeze Strawberry</p>
+                        <p>$4000</p>
+                        <button>+ Agregar al carrito</button>
+                    </div>
+                    <div class="contenedor-producto">
+                        <img src="../images/Liquidos/MRFREEZESALTTUTTIFRUITY-245x280.jpg" class="foto-productos" alt="mrfreezetutifrutty">
+                        <p>Mr Freeze Tutti Frutty</p>
+                        <p>$4000</p>
+                        <button>+ Agregar al carrito</button>
+                    </div>
+
+                        </section>
+
+   </main>
+
+   <footer>
+    <a href="https:facebook.com" target="_blank">
+        <img src="../images/logos/facebook.png" class="footer-images" alt="Seguinos en Facebook">
+    </a>
+    <a href="https:instagram.com" target="_blank">
+        <img src="../images/logos/instagramlogo.png" class="footer-images" alt="Nuestro instagram">
+    </a>
+    <a href="https:twitter.com" target="_blank">
+        <img src="../images/logos/twitter.png" class="footer-images" alt="Twitter">
+    </a>
+   
+</footer>
+</body>
+</html>

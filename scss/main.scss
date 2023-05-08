@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import "_vars";
+@import "_commons";
+@import "_media";
+@import "_nav";
+
+p{
+    font-family: $mainFont;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: $secondaryColor;
+    
+}
+

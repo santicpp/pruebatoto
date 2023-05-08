@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+/* Funciones Mixin */
+@mixin text-center {
+  text-align: center;
+}
+
+@mixin foto-productos {
+  width: 250px;
+  height: auto;
+  opacity: 0.8;
+}
+
+@mixin foto-productos-hover {
+  &:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    transition: 1s;
+  }
+}
+
+@mixin contenedor-producto {
+  width: 300px;
+  padding: 50px;
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: dashed;
+  border-radius: 2px;
+  border-color: blanchedalmond;
+}
+
+@mixin foto-principal {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+@mixin logo {
+  animation: scale 2s ease-in-out infinite;
+  width: auto;
+  height: 100px;
+}
+
+@mixin enunciado-principal {
+  width: 700px;
+  height: 300px;
+  margin: 30px auto;
+  border-color: black;
+  border-style: double;
+  background-color: white;
+}
+
+/* Estilos */
+body {
+  background-color: black;
+}
+
+nav {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+}
+
+h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  color: white;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-decoration: underline;
+}
+
+.contenedor-general {
+  padding: 5px;
+  @include text-center;
+}
+
+.card {
+  max-width: 250px;
+  margin-right: 10px;
+}
+
+.foto-productos {
+  @include foto-productos;
+  @include foto-productos-hover;
+}
+
+.contenedor-producto {
+  @include contenedor-producto;
+}
+
+.precio {
+  background-color: green;
+  opacity: .5;
+  border-radius: 6px;
+  font-weight: bold;
+  color: black;
+}
+
+.foto-principal {
+  @include foto-principal;
+}
+
+.logo {
+  @include logo;
+}
+
+.fondo-header {
+  background-color: black;
+}
+
+.enunciado-principal {
+  @include enunciado-principal;
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+footer {
+  background-color: white;
+  a {
+    text-decoration: none;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

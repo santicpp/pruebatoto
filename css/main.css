@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+h2,
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  color: white;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  color: white;
+  text-decoration: underline;
+}
+
+nav {
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.foto-productos {
+  width: 250px;
+  height: auto;
+  opacity: 0.8;
+}
+
+.foto-productos:hover {
+  scale: 1.1;
+  opacity: 1;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  transition: 1s;
+}
+
+.contenedor-producto {
+  width: 300px;
+  padding: 50px;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: dashed;
+  border-radius: 2px;
+  border-color: blanchedalmond;
+}
+
+.foto-principal {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.logo {
+  animation: scale 2s ease-in-out infinite;
+  width: auto;
+  height: 100px;
+}
+
+.enunciado-principal {
+  width: 700px;
+  height: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+  border-style: double;
+  background-color: white;
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+footer {
+  background-color: white;
+}
+footer a {
+  text-decoration: none;
+}
+footer a img {
+  width: 40px;
+  height: 40px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */

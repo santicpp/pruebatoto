@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Vaping - Tu lugar favorito de Vapeo</title>
+    <link rel="shortcut icon" href="../images/logos/logoe-Vaping.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+    
+    <nav>
+        <a href="../index.html">
+             <img src="../images/Logos/logoe-Vaping.png" class="logo" alt="logo E-Vaping"></a>
+             
+                     
+             <ul>
+                 <li>
+                    <a href="#">Kits</a></li>
+                         <li>
+                            <a href="Contacto.html">Contacto</a></li>
+                                <li>
+                                    <a href="Atomizadores.html">Atomizadores</a></li>
+                                        <li>
+                                             <a href="Liquidos.html">Liquidos</a>
+                                                </li>
+    </ul>
+    </nav>
+
+    <!-- termina la nav -->
+    <header class="fondo-header"> 
+        <img src="../images/hombre-vapeando.jpg" class="foto-principal"  alt="imagen de inicio">
+    </header>
+    <main class="text-center">
+        <section>
+            <h1>Kits</h1>
+                </section>
+                     <section>
+                        <h2>Kits de inicio</h2>
+                        <div class="contenedor-producto">
+                            <img src="../images/Kits/vaporessoskysoloplus_360x.webp" class="foto-productos" alt="skysoloplus">
+                            <p>Vaporesso Sky Solo Plus</p>
+                            <p>$7500</p>
+                            <button>+ Agregar al carrito</button>
+                        </div>
+                        <div class="contenedor-producto">
+                            <img src="../images/Kits/geekvape-aegisonefc.png" class="foto-productos" alt="geekvape-aegisonefc">
+                            <p>GeekVape Aegosin</p>
+                            <p>$6500</p>
+                            <button>+ Agregar al carrito</button>
+                        </div>
+                        <div class="contenedor-producto">
+                            <img src="../images/Kits/exceedd19-295x295.jpg" class="foto-productos" alt="exceedd19">
+                            <p>Exceed d19</p>
+                            <p>$7500</p>
+                            <button>+ Agregar al carrito</button>
+                            
+                        </div>
+                        <div class="contenedor-producto">
+                            <img src="../images/Kits/caliburn-295x295.jpg" class="foto-productos" alt="caliburn">
+                            <p>Caliburn Uwell</p>
+                            <p>$8000</p>
+                            <button>+ Agregar al carrito</button>
+                        </div>
+                            <h3>Kits Avanzados</h3>
+                            <div class="contenedor-producto">
+                                <img src="../images/Kits/KOKOPrimeBox_x700-295x295.jpg" class="foto-productos" alt="Koko Prime Box">
+                                <p>Koko Prime Box</p>
+                                <p>$12000</p>
+                                <button>+ Agregar al carrito</button>
+                            </div>
+                            <div class="contenedor-producto">
+                                <img src="../images/Kits/vaporesso-gen160.jpg" class="foto-productos" alt="vaporesso-gen160">
+                                <p>Vaporesso Gen 160</p>
+                                <p>$12500</p>
+                                <button>+ Agregar al carrito</button>
+                            </div>
+                            <div class="contenedor-producto">
+                                <img src="../images/Kits/vaporesso-genfitkit120.png" class="foto-productos" alt="vaporesso-genfitkit120">
+                                <p>Vaporesso Genfit Kit 120</p>
+                                <p>$10500</p>
+                                <button>+ Agregar al carrito</button>
+                            </div>
+                            <div class="contenedor-producto">
+                                <img src="../images/Kits/vaporessobarrpod.jpg" class="foto-productos" alt="vaporessobarrpod">
+                                <p>Vaporesso Barpod</p>
+                                <p>$9500</p>
+                                <button>+ Agregar al carrito</button>
+                            </div>
+
+                             </section>
+
+    </main>
